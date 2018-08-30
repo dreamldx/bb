@@ -4,4 +4,4 @@ PROJECT=bb
 GOPATH=$(shell pwd)
 
 all:
-	go build -o $(PROJECT) -v src/github.com/dreamldx/bb/cmd/bb.go
+	go build -o out/$(PROJECT) -v src/github.com/dreamldx/bb/cmd/bb.go
